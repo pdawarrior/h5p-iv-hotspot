@@ -1,0 +1,97 @@
+{
+  "semantics": [
+    {
+      "label": "Đích",
+      "fields": [
+        {
+          "label": "Loại",
+          "options": [
+            {
+              "label": "Mã thời gian"
+            },
+            {
+              "label": "Trang khác (URL)"
+            }
+          ]
+        },
+        {
+          "label": "Đi đến",
+          "description": "Thời gian mục tiêu người dùng sẽ được đưa đến khi ấn điểm nóng. Nhập mã thời gian theo định dạng Phút:Giây."
+        },
+        {
+          "label": "URL",
+          "fields": [
+            {
+              "label": "Giao thức",
+              "options": [
+                {
+                  "label": "http://"
+                },
+                {
+                  "label": "https://"
+                },
+                {
+                  "label": "(tương ứng gốc)"
+                },
+                {
+                  "label": "khác"
+                }
+              ]
+            },
+            {
+              "label": "URL"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "label": "Trực quan",
+      "fields": [
+        {
+          "label": "Hình",
+          "options": [
+            {
+              "label": "Hình hộp chữ nhật"
+            },
+            {
+              "label": "Hình tròn"
+            },
+            {
+              "label": "Hình chữ nhật bo tròn"
+            }
+          ]
+        },
+        {
+          "label": "Màu nền cho điểm nóng"
+        },
+        {
+          "label": "Sử dụng con trỏ"
+        },
+        {
+          "label": "Thêm hiệu ứng nhấp nháy",
+          "description": "Lưu ý: Hiệu ứng nhấp nháy luôn được bật trong trình chỉnh sửa để bạn có thể tìm thấy các điểm nóng trong suốt"
+        }
+      ]
+    },
+    {
+      "label": "Văn bản",
+      "fields": [
+        {
+          "label": "Văn bản thay thế",
+          "description": "Mô tả chủ đề các điểm nóng bao gồm. Được sử dụng cho bộ đọc",
+          "placeholder": "Một quả táo ở trên bàn"
+        },
+        {
+          "label": "Nhãn Điểm nóng"
+        },
+        {
+          "label": "Nhãn hiển thị"
+        },
+        {
+          "label": "Mầu nhãn"
+        }
+      ]
+    }
+  ]
+}
