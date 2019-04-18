@@ -16,7 +16,7 @@
         },
         {
           "label": "Đi đến",
-          "description": "Thời gian mục tiêu người dùng sẽ được đưa đến khi ấn điểm nóng. Nhập mã thời gian theo định dạng Phút:Giây."
+          "description": "Thời gian mục tiêu người dùng sẽ được đưa đến khi ấn điểm nóng. Nhập mã thời gian theo định dạng M:SS."
         },
         {
           "label": "URL",
@@ -31,7 +31,7 @@
                   "label": "https://"
                 },
                 {
-                  "label": "(tương ứng gốc)"
+                  "label": "(root relative)"
                 },
                 {
                   "label": "khác"
